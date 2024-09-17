@@ -1,3 +1,14 @@
+
+
+
+// Factorial using recursion
+
+
+
+
+
+
+
 Factorial(int num){
   if (num==1){
     return 1;
