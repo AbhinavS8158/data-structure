@@ -7,6 +7,6 @@ Fibnocci(int num){
     return Fibnocci(num-1)+Fibnocci(num-2);
   }
 }
-void main (){
-  print (Fibnocci(6));
+void main(){
+  print(Fibnocci(5));
 }
