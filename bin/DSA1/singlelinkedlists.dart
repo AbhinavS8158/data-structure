@@ -48,7 +48,7 @@ class Linkedlist{
     }
     Node?current=head;
     int index=0;
-    while(current !=null&& index<position-1){
+    while(current !=null&& index<position-2){
       current=current.next;
       index++;
 
