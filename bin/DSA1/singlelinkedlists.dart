@@ -48,6 +48,16 @@ class Linkedlist{
     }
     Node?current=head;
     int index=0;
+      if(position==0){
+       newnode.next=head;
+       head=newnode;
+       return ;
+     }
+     if(position==0){
+       newnode.next=head;
+       head=newnode;
+       return ;
+     }
     while(current !=null&& index<position-2){
       current=current.next;
       index++;
