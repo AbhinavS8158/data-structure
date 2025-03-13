@@ -7,7 +7,7 @@ class Node{
   Node(this.value);
 }
 
-class BTS{
+class BST{
   Node?root;
 
   isEmpty(){
@@ -144,7 +144,7 @@ deleteNode(root,value){
 }
 
 void main(){
-  BTS bts=BTS();
+  BST bts=BST();
   bts.insert(10);
   bts.insert(5);
   bts.insert(15);
